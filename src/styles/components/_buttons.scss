@@ -1,0 +1,32 @@
+.button__login {
+    background: fade-out($light-green, 0.20);
+    border: none;
+    border-radius: 10px;
+    color: $dark-grey;
+    font-size: 1.8rem;
+    font-weight: 500;
+    padding: $s-size;    
+}
+
+.button {
+    background: $soft-green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: $s-size;
+    text-decoration: none;
+}
+
+.button__secondary {
+    @extend .button;
+    background: fade-out($color: #d5ddd4, $amount: 0.1)
+}
+
+.button--link {
+    background: none
+}
+

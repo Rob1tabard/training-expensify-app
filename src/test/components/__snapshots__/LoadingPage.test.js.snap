@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render AddExpensePage correctly 1`] = `
+<div
+  className="loader"
+>
+  <div>
+    <h3>
+      LOADING
+    </h3>
+  </div>
+  <img
+    className="loader__gif"
+    src="/images/loading.gif"
+  />
+</div>
+`;
